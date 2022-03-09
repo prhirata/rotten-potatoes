@@ -32,3 +32,11 @@ MONGODB_PASSWORD => Senha do MongoDB
       - Especifiquei a rede a ser utilizada (rotten_network)
       - Fiz o mapeamento o volume
       - Especifiquei as variáveis de ambiente (MONGO_INITDB_ROOT_USERNAME, MONGO_INITDB_ROOT_PASSWORD)
+
+3) Para executar a aplicação utilizando o docker-compose, execute:
+    `docker-compose up -d`
+
+    Caso precise reconstruir a imagem inclua o argumento `--build`
+
+4) Para parar a execução dos containers:
+    `docker-compose down`
